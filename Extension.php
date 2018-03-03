@@ -10,7 +10,7 @@
  * @see How to: https://github.com/KEINOS/parsedown-extension_table-of-contents/
  * @license https://github.com/KEINOS/parsedown-extension_table-of-contents/LICENSE
  */
-class Extension extends Parsedown
+class Extension extends ParsedownExtra
 {
     protected function fetchText($Text)
     {
